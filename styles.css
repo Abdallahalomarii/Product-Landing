@@ -121,7 +121,8 @@ input:last-child {
 #submit {
     background-color: var(--second_bgcolor);
     color: var(--btntext);
-    font-size: 1.0rem;
+    text-transform: capitalize;
+    font-size: 0.9rem;
     font-weight: 700;
     border: none;
 
@@ -261,8 +262,9 @@ footer {
 
 @media (max-width:1000px) {
     .container {
-        width: 90%;
+        width: 100%;
         margin: 9rem 0 0 0;
+        
 
     }
 
